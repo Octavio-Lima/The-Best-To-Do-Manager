@@ -1,0 +1,8 @@
+namespace The_Best_To_Do_Manager.Models;
+
+public class ErrorViewModel
+{
+    public string? RequestId { get; set; }
+
+    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+}

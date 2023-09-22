@@ -1,0 +1,67 @@
+:root {
+  --primary-white: #eee;
+  --primary-black: #333;
+  --secondary-white: #cdcdcd; 
+  --secondary-black: #111;
+
+  --primary-color: #7a0000 ;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+main {
+  height: 100vh;
+  background-color: var(--primary-white);
+}
+
+aside {
+  height: 100vh;
+  background-color: var(--secondary-black);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.task-button {
+  background-color: #0000;
+  border: none;
+}
+
+.task-button:hover {
+  text-decoration: underline;
+}
+
+.drag-drop-button {
+  background-color: #0000;
+  border: none;
+  
+  color: var(--primary-black);
+}
+
+header {
+  background-color: var(--primary-color) !important;
+}

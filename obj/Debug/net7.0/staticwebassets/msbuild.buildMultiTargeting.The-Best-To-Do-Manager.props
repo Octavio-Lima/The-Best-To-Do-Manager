@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\The-Best-To-Do-Manager.props" />
+</Project>

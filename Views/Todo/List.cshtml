@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h3>Project Title</h3>
+    <ul>
+        @foreach (var item in ViewBag.Message) {
+            string indentation = $"{20   * @item.IndentationLevel}px";
+
+            <li style="padding-left: @indentation;">
+                <button class="drag-drop-button"><i class="fa-solid fa-bars" style="transform: rotate(90deg);"></i></button> 
+                <input type="checkbox" checked=@item.Status> 
+                <button class="task-button">
+                    <span>@item.Title</span>
+                </button>
+            </li>
+        }
+    </ul>
+
+    <input type="text" name="" id="" placeholder="Add a new task">  
+</div>

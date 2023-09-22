@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NDPV5smTVAqz5cEmIDlyWyVHg4Wvc8MOMj8ObNm5HyG0nlegaMmv8rtrguDoHnUE54tHitSzOCWR84NA2j/p2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\octav\\GitHub\\The-Best-To-Do-Manager\\The-Best-To-Do-Manager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\octav\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
